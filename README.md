@@ -41,21 +41,21 @@ sudo apt install libglm-dev
 ```
 <H3>Now for the shader compiler, we'll use glslc.</H3>
 
-<li>Donwload the tgz file that is compatible with your C++ compiler in https://github.com/google/shaderc/blob/main/downloads.md ;
+<li>Donwload the .tgz file that is compatible with your C++ compiler in https://github.com/google/shaderc/blob/main/downloads.md ;
 <li>Unzip the downloaded file and open the directory;
 <li>Enter the 'bin' directory;
 <li>Copy the 'glslc' file to your '/usr/local/bin' (Might have to sudo);
 
-Now if you run:
+Now, if you run:
 
 ```
 glslc
 ```
-you'll get an error message saying  'glslc: error: no input files'.
+you'll get an error message saying: 'glslc: error: no input files'.
 This indicates that glslc is installed.
 
-Now all theres left is to use the already made CMakeLists.txt file.
-(I'm assuming that you already cloned the repository)
+Now all there's left is to use the already made CMakeLists.txt file.
+(I'm assuming that you've already cloned the repository)
 
 Now for the final steps, create the build directory, move there, create the MakeFile using Cmake and you should see a black 'Vulkan Window' on your screen.
 
@@ -67,5 +67,5 @@ make
 ./vktest
 ```
 
-<br> Congratulations, you are now oficcialy on the first step of the journey, Happy hacking! :p 🚀
+<br> Congratulations, you're now oficcialy on the first step of the journey, Happy hacking! :p 🚀
 
